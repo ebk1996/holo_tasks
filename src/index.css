@@ -3,3 +3,39 @@
 @tailwind utilities;
 
 :root { color-scheme: dark; }
+
+.holo {
+  @apply bg-gray-900 text-white font-inter;
+}
+
+.holo-header {
+  @apply p-4 bg-gray-800 shadow-lg flex justify-between items-center rounded-b-lg;
+  color: #16b849;
+  justify-content: space-evenly
+}
+
+.holo-footer {
+  @apply p-3 bg-gray-800 text-center text-gray-500 text-sm rounded-t-lg;
+    color: #16b849;
+}
+
+.holo-title {
+  @apply text-3xl font-bold text-cyan-400;
+}
+
+.holo-description {
+  @apply text-sm text-gray-400;
+}
+
+.holo-tasks {
+  @apply flex-1 overflow-y-auto p-4;
+  color: #eee;
+}
+
+.justify-content-center {
+  @apply flex justify-center;
+  text-align: center;
+  margin: 1rem 0;
+  color: #eee;
+  text-size-adjust: 1 rem;
+}

@@ -1,10 +1,27 @@
-# Holographic Task Manager (Vite + React + Three.js)
+Holographic XYZ Plane Graph To Do List
 
-## Quickstart
-```bash
-npm i
-npm run dev
-```
-(Optionally copy `.env.example` to `.env` and fill `VITE_GEMINI_API_KEY`.)
+-enter text into search field and it renders hologram inside xyz axis plane -embedded to do list functionality for embedding multiple holograms into one plane -holographic scaling for external peripheral devices and scoping for optical glass enhancements and aerospace configurations -link to smart glasses -voice control -ai copilot
 
-This scaffold matches the structure we discussed and includes Tailwind, Three.js, and a small LLM helper with a safe heuristic fallback.
+App.js holds the source code.
+
+Holographic To-Do List Application
+
+Holograms_v1 is an experimental task management app that renders 3D holographic representations of to-do list items in an interactive XYZ plane. Designed for immersive productivity environments, this project merges task organization with spatial visualization using WebGL/Three.js.
+
+Features ✅ Add tasks to your to-do list 📊 Each task is rendered as a floating 3D object in holographic space 🧭 Real-time positioning along the X, Y, and Z axes 🎮 Interactive controls for rotating and zooming in the hologram plane 🧠 Designed for intuitive visualization in VR/AR environments (compatible with WebXR) Demo Coming soon: Live WebGL/Three.js demo hosted on GitHub Pages
+
+Tech Stack Frontend: React.js + Three.js (or Babylon.js) 3D Engine: WebGL / WebXR State Management: Redux or Zustand 3D Asset Format: JSON-based objects or GLTF Build Tooling: Vite or Webpack Setup
+
+Clone the repo
+git clone https://github.com/ebk1996/holo_tasks.git cd holo_tasks
+
+Install dependencies
+npm install
+
+Run the development server
+npm run dev Usage Launch the app Enter a task in the input field Press Add Task The task appears in a 3D space rendered in real-time Use your mouse or VR controls to explore the holographic space Roadmap Voice-based task entry Gesture support for AR interfaces Data persistence with localStorage / backend Priority-based color-coding Export holographic layout to 3D model Contributing PRs are welcome! This project is in early-stage prototype development. If you're passionate about spatial interfaces, WebXR, or productivity tools, let's collaborate.
+
+Fork the repo and create a feature branch
+git checkout -b feature/your-feature-name License MIT License. See LICENSE file for details.
+
+Developed by Bryson Echols — pushing the boundaries of productivity and dimensional computing.
